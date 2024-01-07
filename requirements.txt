@@ -1,0 +1,5 @@
+gunicorn
+dash
+jupyter_dash
+dash_bootstrap_components
+
