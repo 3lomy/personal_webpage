@@ -192,7 +192,7 @@ table = dbc.Table(table_header + table_body, bordered=True, style={'background-c
 tab_projects_content = dbc.Card(
     html.Div([
         table        
-    ])
+    ],style={'background-color': 'black', 'color': 'white'})
 )
 
 # resume tab content
