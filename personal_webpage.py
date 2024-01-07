@@ -174,14 +174,14 @@ profile_section =  dbc.Row([
 
 
 # build table for projects tab content
-table_header = [html.Thead(html.Tr([html.Th("Project name"), html.Th("Links")]))]
+table_header = [html.Thead([html.Tr([html.Th("Project name"), html.Th("Links")])], style={'background-color': 'black', 'color': 'white'})]
 row1 = html.Tr([html.Td("Loan Book Visualizer: Automate analysis of a bank loan book with Python and Dash"), 
                 html.Td(html.A("Link 1", target="_blank", href="https://loan-book-visualizer-app.onrender.com"))])
 row2 = html.Tr([html.Td("Macro Data Explorer: Create a dashboard from macro data for analysis"), 
                 html.Td(html.A("Link 2", target="_blank", href="https://macro-data-explorer-app.onrender.com"))])
 
 
-table_body = [html.Tbody([row1, row2])]
+table_body = [html.Tbody([[row1, row2]],style={'background-color': 'black', 'color': 'white'})]
 # table_body = [html.Tbody([row1, row2, row3, row4])]
 
 table = dbc.Table(table_header + table_body, bordered=True, style={'background-color': 'black', 'color': 'white'})
