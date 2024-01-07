@@ -1,0 +1,27 @@
+/*
+
+selector {
+  property: value;
+  property: value;
+}
+
+using selectors:
+# represensts code for using id for styling (Id selector) eg. #update-button
+. represents using class (Class Selector) eg. .dropdown
+(Type Slector) eg. button
+
+*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: #000000; /*silver; */ /*blue #4169E1 Dark Gray: #333333  Charcoal: #555555  Dim Gray: #696969*/
+    z-index: 100;
+    padding: 100px;  /* Add padding for spacing */
+
+    color: white;
+   /*font-family: 'Montserrat', sans-serif; /* Add this line to set the font type */
+}
+
