@@ -141,7 +141,7 @@ profile_section =  dbc.Row([
 #             html.P("I am driven by the dynamic nature of finance and the transformative power of data. My goal is to contribute to the evolution of the financial landscape by embracing innovation, continuous learning, and the application of cutting-edge technologies."),
 #             html.H3("Let's Connect"),
 #             html.P("I'm excited to share my experiences, insights, and projects with you. Explore my personal web page to discover more about my professional journey and the exciting projects I've been involved in. Feel free to connect, and let's explore the possibilities at the intersection of finance and technology."),
-        ], width=5),
+        ], width=5, xs=12, sm=12, lg=5),
 
         # Profile picture column
         dbc.Col([
@@ -163,7 +163,7 @@ profile_section =  dbc.Row([
                 "height": "550px",
             }),
             
-        ], width=4),
+        ], width=4, xs=12, sm=12, lg=4),
 
     ], justify='center', style={ "paddingTop": "180px", "paddingBottom": "150px"}) 
 
@@ -197,7 +197,7 @@ tab_projects_content = dbc.Card(
 
 # resume tab content
 tab_resume_content = dbc.Card( 
-    
+    html.Div([
     dbc.CardBody([
         
         dbc.Row([
@@ -289,6 +289,7 @@ tab_resume_content = dbc.Card(
                   'box-shadow': '10px 10px 10px 10px rgba(0, 0, 0, 0.2)',
                   "padding": "10px"  } # Add padding for spacing}
     ),
+    ],style={'background-color': 'black', 'color': 'white'}),
     className="mt-4 w-80 border-0 bg-transparent",
 )
 
