@@ -147,7 +147,7 @@ profile_section =  dbc.Row([
         dbc.Col([
             html.Div([
                 dbc.CardImg(
-                    src="assets/elom_kwamin_profile_pic.jpg",  
+                    src="assets/elom_kwamin_profile_pic.jpeg",  
                     className='rounded-center',
                     style={
                         "maxWidth": "100%",
