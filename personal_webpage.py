@@ -308,7 +308,7 @@ tabs = dbc.Tabs([
 tabs_section = html.Div([   
     dbc.Row([
         dbc.Col([tabs], lg={'size':8, 'offset':2}, sm=12),
-    ]),
+    ], style={'background-color': 'black', 'color': 'white'}),
     
     dcc.Download(id='download-cv-component'),
  
