@@ -229,7 +229,7 @@ tab_resume_content = dbc.Card(
                 dbc.Col([
                 dbc.CardImg(src="assets/passport_pic.jpeg", className='rounded-center"', 
                             style={"maxWidth": 180, "opacity": 0.8,},), 
-                ],lg={'size':2, 'offset':5}, sm=12, className='text-left'),
+                ],lg={'size':2, 'offset':0}, sm=12, className='text-left'),
                 
                 # dbc.Col([
                 
