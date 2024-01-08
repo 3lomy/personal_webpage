@@ -212,7 +212,7 @@ tab_projects_content = dbc.Card(
 
 # resume tab content
 tab_resume_content = dbc.Card( 
-#     html.Div([
+    html.Div([
     dbc.CardBody([
         
         dbc.Row([
@@ -309,7 +309,7 @@ tab_resume_content = dbc.Card(
                   'box-shadow': '10px 10px 10px 10px rgba(0, 0, 0, 0.2)',
                   "padding": "10px"  } # Add padding for spacing}
     ),
-    
+    ],style={'background-color': 'black', 'color': 'white'}),
 className="mt-4 w-80 border-0 bg-transparent",)
 
 
