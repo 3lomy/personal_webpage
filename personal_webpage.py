@@ -229,16 +229,16 @@ tab_resume_content = dbc.Card(
                 dbc.Col([
                 dbc.CardImg(src="assets/passport_pic.jpeg", className='rounded-center"', 
                             style={"maxWidth": 180, "opacity": 0.8,},), 
-                ],lg={'size':2, 'offset':1}, sm=12, className='text-left'),
+                ],lg={'size':2, 'offset':5}, sm=12, className='text-left'),
                 
-                dbc.Col([
+                # dbc.Col([
                 
-                html.A('I am a results-oriented finance analyst holding a dual Master degrees in Quantitative Finance '), 
-                html.A('and Quantitative Economics from the University of Kiel.'),
-                html.A(' I hold the esteemed FRM designation and have a strong passion for data analysis and machine learning.'),
-                html.A(' I am adept at harnessing the power of data analysis and machine learning to drive informed decisions'),
-                html.A(' and deliver exceptional outcomes.'),
-                ], lg={'size':8, 'offset':0}, sm=12, className='text-left'),    
+                # html.A('I am a results-oriented finance analyst holding a dual Master degrees in Quantitative Finance '), 
+                # html.A('and Quantitative Economics from the University of Kiel.'),
+                # html.A(' I hold the esteemed FRM designation and have a strong passion for data analysis and machine learning.'),
+                # html.A(' I am adept at harnessing the power of data analysis and machine learning to drive informed decisions'),
+                # html.A(' and deliver exceptional outcomes.'),
+                # ], lg={'size':8, 'offset':0}, sm=12, className='text-left'),    
 
             ],justify='center'),
             
@@ -264,9 +264,9 @@ tab_resume_content = dbc.Card(
         
             html.Hr(),
             html.Ul([           
-                html.Li('2015 - 2017: MSc. Quantitative Economics, University of Kiel'),
-                html.Li('2013 - 2016: MSc. Quantitative Finance, University of Kiel'),
-                html.Li('2008 - 2012: BSc. Actuarial Science, Kwame Nkrumah University of Science & Technology'),
+                html.Li('2015 - 2017: MSc. Quantitative Economics, University of Kiel, GERMANY'),
+                html.Li('2013 - 2016: MSc. Quantitative Finance, University of Kiel, GERMANY'),
+                html.Li('2008 - 2012: BSc. Actuarial Science, Kwame Nkrumah University of Science & Technology, GHANA'),
             ]),
             
             html.Br(),
